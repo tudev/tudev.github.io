@@ -4,11 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 .heading-font {
-<<<<<<< HEAD
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-=======
   font-family: 'Product Sans', 'Helvetica', 'Arial', 'sans-serif';
->>>>>>> gh-pages
   font-weight: 200;
   letter-spacing: 1px;
 }
@@ -53,11 +49,7 @@ h3,
 h4,
 h5,
 h6 {
-<<<<<<< HEAD
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-=======
   font-family: 'Product Sans', 'Helvetica', 'Arial', 'sans-serif';
->>>>>>> gh-pages
   font-weight: 200;
   letter-spacing: 1px;
 }
@@ -72,20 +64,12 @@ p {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-<<<<<<< HEAD
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-=======
   font-family: 'Product Sans', 'Helvetica', 'Arial', 'sans-serif';
->>>>>>> gh-pages
   font-weight: 200;
   letter-spacing: 1px;
 }
 .navbar-default .navbar-header .navbar-brand {
-<<<<<<< HEAD
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-=======
   font-family: 'Product Sans', 'Helvetica', 'Arial', 'sans-serif';
->>>>>>> gh-pages
   font-weight: 200;
   letter-spacing: 1px;
   color: white;
@@ -107,11 +91,7 @@ p {
 }
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
-<<<<<<< HEAD
-  color: #222222;
-=======
   color: #fff;
->>>>>>> gh-pages
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
@@ -147,19 +127,11 @@ p {
     color: white;
   }
   .navbar-default.affix {
-<<<<<<< HEAD
-    background-color: white;
-    border-color: rgba(34, 34, 34, 0.1);
-  }
-  .navbar-default.affix .navbar-header .navbar-brand {
-    color: #222222;
-=======
     background-color: #010101;
     border: 0;
   }
   .navbar-default.affix .navbar-header .navbar-brand {
     color: #fff;
->>>>>>> gh-pages
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
@@ -167,39 +139,22 @@ p {
   }
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
-<<<<<<< HEAD
-    color: #222222;
-=======
     color: #aaa;
->>>>>>> gh-pages
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
     color: #a41e35;
   }
-<<<<<<< HEAD
-=======
 
->>>>>>> gh-pages
 }
 header {
   position: relative;
   width: 100%;
   min-height: auto;
   overflow-y: hidden;
-<<<<<<< HEAD
-  background: url("../img/bg-pattern.png"), #a41e35;
-  /* fallback for old browsers */
-  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #a41e35, #000);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #a41e35, #000);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: white;
-=======
   background: #a41e35;
   color: white;
   overflow: hidden;
->>>>>>> gh-pages
 }
 header .header-content {
   text-align: center;
@@ -234,15 +189,12 @@ header .device-container .screen img {
   header {
     padding-top: 5vh;
     /*min-height: 100%;*/
-<<<<<<< HEAD
-=======
     background: url("../img/bg-pattern.png"), #a41e35;
     /* fallback for old browsers */
     background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #a41e35, #000);
     /* Chrome 10-25, Safari 5.1-6 */
     background: url("../img/bg-pattern.png"), linear-gradient(to left, #a41e35, #000);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
->>>>>>> gh-pages
   }
   header .header-content {
     text-align: left;
@@ -272,11 +224,8 @@ header .device-container .screen img {
 }
 section {
   padding: 100px 0;
-<<<<<<< HEAD
-=======
   background: #121212;
   color: #ccc;
->>>>>>> gh-pages
 }
 section h2 {
   font-size: 50px;
@@ -427,11 +376,7 @@ section.contact ul.list-social li.social-google-plus a:hover {
   background-color: #d73925;
 }
 footer {
-<<<<<<< HEAD
-  background-color: #222222;
-=======
   background-color: #010101;
->>>>>>> gh-pages
   padding: 25px 0;
   color: rgba(255, 255, 255, 0.3);
   text-align: center;
@@ -467,25 +412,15 @@ footer ul li a.active {
 }
 .btn-outline {
   color: white;
-<<<<<<< HEAD
-  border-color: white;
-  border: 1px solid;
-=======
   background-color: #c43e55;
   margin: 5px;
->>>>>>> gh-pages
 }
 .btn-outline:hover,
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
   color: white;
-<<<<<<< HEAD
-  background-color: #a41e35;
-  border-color: #a41e35;
-=======
   background-color: rgba(200, 40, 50, .4);
->>>>>>> gh-pages
 }
 .btn {
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
@@ -497,10 +432,7 @@ footer ul li a.active {
   padding: 15px 45px;
   font-size: 11px;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> gh-pages
 ::-moz-selection {
   color: white;
   text-shadow: none;
@@ -523,13 +455,6 @@ body {
   webkit-tap-highlight-color: #222222;
 }
 
-<<<<<<< HEAD
-.valign {
-  top: 18vh;
-}
-
-=======
->>>>>>> gh-pages
 .img-btn img{
   opacity: .7;
   transition: .2s;
@@ -537,8 +462,6 @@ body {
 
 .img-btn:hover img{
   opacity: 1;
-<<<<<<< HEAD
-=======
 }
 
 .splash-video {
@@ -570,5 +493,4 @@ body {
   .valign {
     top: 18vh;
   }
->>>>>>> gh-pages
 }
