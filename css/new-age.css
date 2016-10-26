@@ -53,12 +53,12 @@ p {
   -moz-transition: all 0.35s;
   transition: all 0.35s;
   font-family: 'Product Sans', 'Helvetica', 'Arial', 'sans-serif';
-  font-weight: 200;
+  font-weight: 700;
   letter-spacing: 1px;
 }
 .navbar-default .navbar-header .navbar-brand {
   font-family: 'Product Sans', 'Helvetica', 'Arial', 'sans-serif';
-  font-weight: 200;
+  font-weight: 700;
   letter-spacing: 1px;
   color: #a41e35;
 }
@@ -79,6 +79,7 @@ p {
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   text-transform: uppercase;
   letter-spacing: 2px;
+  font-weight: 700;
   font-size: 11px;
 }
 .navbar-default .nav > li > a,
@@ -102,6 +103,8 @@ p {
   .navbar-default {
     background-color: transparent;
     border-color: transparent;
+  letter-spacing: 2px;
+  font-weight: 700;
   }
   .navbar-default .navbar-header .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
@@ -458,4 +461,8 @@ body {
   .valign {
     top: 18vh;
   }
+}
+
+.macsplash {
+  object-fit: contain;
 }
