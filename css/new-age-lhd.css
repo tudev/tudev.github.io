@@ -336,6 +336,10 @@ section.cta .overlay {
   left: 0;
 }
 
+section .sponsor-container {
+  text-align: center
+}
+
 i {
   color: #aaa;
 }
