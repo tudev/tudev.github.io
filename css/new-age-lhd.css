@@ -226,6 +226,7 @@ section {
   padding: 100px 0;
   background: #fafafa;
   color: #ccc;
+  height: 100%;
 }
 section h2 {
   font-size: 50px;
@@ -334,6 +335,10 @@ section.cta .overlay {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+section .sponsor-container {
+  text-align: center;
 }
 
 i {
@@ -450,6 +455,7 @@ body {
 
 .lhd-img {
   max-width: 50%;
+  padding-bottom: 20px;
   /*display: table-header-group;*/
 }
 
