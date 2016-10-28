@@ -16,6 +16,12 @@
         offset: 100
     });
 
+    $(window).scroll(function(){
+      if($('.navbar-corner-icon').attr('src') !== './img/logo-red.png'){
+        $('.navbar-corner-icon').attr('src', './img/logo-red.png');
+      }
+    });
+
     // Closes the Responsive Menu on Menu Item Click
     $('.navbar-collapse ul li a').click(function() {
         $('.navbar-toggle:visible').click();
