@@ -341,6 +341,10 @@ section .sponsor-container {
   text-align: center;
 }
 
+section a {
+  color: #a41e35;
+}
+
 i {
   color: #aaa;
 }
