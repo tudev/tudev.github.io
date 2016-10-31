@@ -468,6 +468,7 @@ body {
     position: absolute;
     top: -15px;
     max-height: 100vw;
+    min-width: 100%;
     opacity: .3;
     /*box-shadow: 0 0 180px 80px black inset;*/
   }
