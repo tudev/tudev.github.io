@@ -463,6 +463,15 @@ body {
   /*display: table-header-group;*/
 }
 
+.sponsor-logos {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.guru-logo {
+  width: 60%;
+}
+
 @media(min-width: 768px) {
   .lhd-img {
     min-width: 100%;
