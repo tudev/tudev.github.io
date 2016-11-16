@@ -337,6 +337,10 @@ section.cta .overlay {
   left: 0;
 }
 
+section#sponsor-section{
+    display: table;
+}
+
 section .sponsor-container {
   text-align: center;
 }
