@@ -337,6 +337,10 @@ section.cta .overlay {
   left: 0;
 }
 
+section#sponsor-section{
+    display: table;
+}
+
 section .sponsor-container {
   text-align: center;
 }
@@ -465,6 +469,10 @@ body {
 .sponsor-logos {
    display: flex;
    flex-direction: column;
+}
+
+.around-sm{
+  margin: 50px 0px 50px 0px;
 }
 
 .guru-logo {
