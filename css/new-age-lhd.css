@@ -467,6 +467,10 @@ body {
    flex-direction: column;
 }
 
+.around-sm{
+  margin: 50px 0px 50px 0px;
+}
+
 .guru-logo {
  width: 60%;
  height: 300px;
