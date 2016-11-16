@@ -462,6 +462,23 @@ body {
   padding-bottom: 20px;
   /*display: table-header-group;*/
 }
+.sponsor-logos {
+   display: flex;
+   flex-direction: column;
+}
+
+.guru-logo {
+ width: 60%;
+ height: 300px;
+}
+
+.vanguard-logo {
+  height: 300px;
+}
+
+.ieee-logo {
+  height: 300px;
+}
 
 @media(min-width: 768px) {
   .lhd-img {
