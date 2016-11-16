@@ -467,6 +467,10 @@ body {
    flex-direction: column;
 }
 
+.sponsor-logos-inner {
+    width: 100%;
+}
+
 .guru-logo {
  width: 60%;
  height: 300px;
@@ -477,7 +481,6 @@ body {
 }
 
 .ieee-logo {
-  
   height: 300px;
 }
 
