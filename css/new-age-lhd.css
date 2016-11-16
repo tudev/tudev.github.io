@@ -339,6 +339,7 @@ section.cta .overlay {
 
 section#sponsor-section{
     display: table;
+    width: 100%;
 }
 
 section .sponsor-container {
