@@ -149,7 +149,8 @@ p {
 header {
   position: relative;
   width: 100%;
-  min-height: 100%;
+  padding-top: 100px;
+  min-height: 75vh;
   overflow-y: hidden;
   background: #a41e35;
   color: white;
@@ -187,15 +188,17 @@ header .device-container {
 header .device-container .screen img {
   border-radius: 3px;
 }
+
 @media (min-width: 768px) {
+  .container { width: auto; }
   header .device-container {
     max-width: 300px;
     margin: 0 auto 100px;
   }
   header {
-    padding-top: 5vh;
-    /*min-height: 100%;*/
-    background: url("../img/bg-pattern.png"), #a41e35;
+    padding-top: 3vh;
+    min-height: 100%;
+    /*background: url("../img/bg-pattern.png"), #a41e35;*/
     /* fallback for old browsers */
     /*background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #a41e35, #fff);*/
     /* Chrome 10-25, Safari 5.1-6 */
@@ -227,6 +230,16 @@ header .device-container .screen img {
   }
 }
 @media (min-width: 992px) {
+  header {
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    overflow-y: hidden;
+    background: #a41e35;
+    color: white;
+    overflow: hidden;
+  }
+
   header .header-content .header-content-inner h1 {
     font-size: 50px;
   }
@@ -442,7 +455,8 @@ body {
 .splash-video {
   position: absolute;
   top: -15px;
-  max-height: 100vw;
+  min-height: 100vh;
+  max-height: 100vh;
   opacity: 0;
   /*box-shadow: 0 0 180px 80px black inset;*/
 }
@@ -479,7 +493,10 @@ body {
     /*box-shadow: 0 0 180px 80px black inset;*/
   }
   .valign {
-    top: 18vh;
+    --this-height: 300px;
+    --this-width: 200px;
+    --vert: calc(60vh - var(--this-height));
+    top: var(--vert);
   }
 }
 
