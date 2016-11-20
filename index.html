@@ -5,12 +5,21 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="">
+
+  <!-- Social Media Schema -->
+  <meta property="og:title" content="TUDev"/>
+  <meta property="og:image" content="http://tudev.org/img/meeting-splash-sm.jpg"/>
+  <meta property="og:description" content="Temple U's Student-run Coding Organization."/>
+
   <link rel="icon" type="image/png" href="./img/logo-red.png" />
   <title>TUDev</title>
+  <meta name="description" content="Temple University's student-run coding organization">
+  <meta name="author" content="TUDev">
+  <meta charset="utf-8">
   <!-- Bootstrap Core CSS -->
   <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Animate CSS -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <!-- Custom Fonts -->
   <link href='https://fonts.googleapis.com/css?family=Product+Sans' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
@@ -72,8 +81,8 @@
               <h3>Temple University's largest <b>student-run tech organization</b></h3>
               <!--<h5>We meet every first Thursday of the month @ 5:00 PM in SERC Rm. 358</h5>//-->
               <br>
-              <a href="#what" class="btn btn-outline btn-xl page-scroll">Learn More</a>&nbsp;&nbsp;&nbsp;
-              <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdsJbBbza_HsqhGM_5YjaSo-XnWug2KNCXv9CYQcXW4qtCQsw/viewform" class="btn btn-outline btn-xl page-scroll">Join Today! <i class="fa fa-arrow-right"></i></a>
+              <a href="#what" class="btn btn-outline btn-xl page-scroll">Learn More</a>
+              <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdsJbBbza_HsqhGM_5YjaSo-XnWug2KNCXv9CYQcXW4qtCQsw/viewform" class="btn btn-outline btn-xl page-scroll animated tada">Join Today! <i class="fa fa-arrow-right animated infinite jello"></i></a>
             </div>
           </div>
         </div>
@@ -124,7 +133,7 @@
           </p>
         </div>
         <div class="col-md-3">
-          <h1><i class="fa fa-bullhorn"></i></h1>
+          <h1><i class="fa fa-bullhorn" ></i><!-- style="color: #fff;text-shadow:0 3px 7px #c07" --></h1>
           <h3 style="font-weight:500">Outreach</h3>
           <p class="text-muted">
             We work with other student orgs and the CIS dept to get more students interested in coding and technology. We also host other events such as Local Hack Day to benefit others throughout Philly.
@@ -176,25 +185,28 @@
       <h1 style="color:white">Our Events</h1>
       <br>
       <div class="row">
-        <div class="col-md-offset-1 col-md-3 col-sm-4 col-xs-4">
+        <div class="col-md-offset-1 col-md-3 col-sm-4 col-xs-12">
           <a href="./lhd"><img src="./img/hero-logo-white.svg" class="lhd-img" style="width: 50%"></a>
+          <h3 class="hidden-lg hidden-md hidden-sm" style="color:white">Local Hack Day<br><br></h3>
         </div>
-        <div class="col-sm-4 col-xs-4">
+        <div class="col-sm-4 col-xs-12">
           <a href="./codeatnight"><img src="./img/code-at-night-old.png" class="lhd-img" style="width: 50%; margin-top: 40px"></a>
+          <h3 class="hidden-lg hidden-md hidden-sm" style="color:white">Code @ Night<br><br></h3>
         </div>
-        <div class="col-sm-4 col-xs-4">
+        <div class="col-sm-4 col-xs-12">
           <a href="http://owlhacks.com/"><img src="./img/owlhacks-logo.png" class="lhd-img" style="width: 50%"></a>
+          <h3 class="hidden-lg hidden-md hidden-sm" style="color:white">OwlHacks<br><br></h3>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-offset-1 col-md-3 col-sm-4 col-xs-4">
-          <h3 style="color:white">Local Hack Day</h3>
+        <div class="col-md-offset-1 col-md-3 col-sm-4 col-xs-12">
+          <h3 class="hidden-xs" style="color:white">Local Hack Day</h3>
         </div>
-        <div class="col-sm-4 col-xs-4">
-          <h3 style="color:white">Code @ Night</h3>
+        <div class="col-sm-4 col-xs-12">
+          <h3 class="hidden-xs" style="color:white">Code @ Night</h3>
         </div>
-        <div class="col-sm-4 col-xs-4">
-          <h3 style="color:white">OwlHacks</h3>
+        <div class="col-sm-4 col-xs-12">
+          <h3 class="hidden-xs" style="color:white">OwlHacks</h3>
         </div>
       </div>
     </div>
@@ -243,37 +255,38 @@
         </div>
         <div class="row">
           <div class="col-md-2 col-sm-4 col-xs-6">
-            <img class="propic" src="./img/profile/harsh.jpg" style="width: 150px" />
+            <img class="propic" src="./img/profile/harsh.jpg"/>
             <h4 style="font-weight:500">Harsh Patel</h4>
             <p class="text-muted">
             </p>
           </div>
           <div class="col-md-2 col-sm-4 col-xs-6">
-            <img class="propic" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAfOAAAAJDhlMTY5MDkyLTgwNGMtNDhmZC04MzQ0LTIxZTNmMzEyZjc1Mw.jpg" style="width: 150px" />
+            <a href="mailto:john.nguyen@temple.edu">
+            <img class="propic" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAfOAAAAJDhlMTY5MDkyLTgwNGMtNDhmZC04MzQ0LTIxZTNmMzEyZjc1Mw.jpg"/></a>
             <h4 style="font-weight:500">John Nguyen</h4>
             <p class="text-muted">
             </p>
           </div>
           <div class="col-md-2 col-sm-4 col-xs-6">
-            <img class="propic" src="./img/profile/jimmy.jpg" style="width: 150px" />
+            <img class="propic" src="./img/profile/jimmy.jpg"/>
             <h4 style="font-weight:500">Jimmy Klein</h4>
             <p class="text-muted">
             </p>
           </div>
           <div class="col-md-2 col-sm-4 col-xs-6">
-            <img class="propic" src="./img/profile/victor_williams.jpg" style="width: 150px" />
+            <img class="propic" src="./img/profile/victor_williams.jpg"/>
             <h4 style="font-weight:500">Victor Williams</h4>
             <p class="text-muted">
             </p>
           </div>
           <div class="col-md-2 col-sm-4 col-xs-6">
-            <img class="propic" src="./img/profile/raman.jpg" style="width: 150px" />
+            <img class="propic" src="./img/profile/raman.jpg"/>
             <h4 style="font-weight:500">Ramanjit Khakh</h4>
             <p class="text-muted">
             </p>
           </div>
           <div class="col-md-2 col-sm-4 col-xs-6">
-            <img class="propic" src="./img/profile/sam.jpg" style="width: 150px" />
+            <img class="propic" src="./img/profile/sam.jpg"/>
             <h4 style="font-weight:500">Sam Rizer</h4>
             <p class="text-muted">
             </p>

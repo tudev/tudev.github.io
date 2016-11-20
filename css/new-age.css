@@ -162,13 +162,14 @@ header i {
 
 header .header-content {
   text-align: center;
-  padding: 150px 0 50px;
+  padding-top: 20px;
   position: relative;
 }
 header .header-content .header-content-inner {
   position: relative;
   max-width: 500px;
   margin: 0 auto;
+  text-align: center;
 }
 header .header-content .header-content-inner h1 {
   margin-top: 0;
@@ -181,12 +182,16 @@ header h5,
 #news .title {color: #fff;}
 header .device-container {
   max-width: 300px;
-  margin: 0 auto 100px;
+  margin: 20px auto 100px;
 }
 header .device-container .screen img {
   border-radius: 3px;
 }
 @media (min-width: 768px) {
+  header .device-container {
+    max-width: 300px;
+    margin: 0 auto 100px;
+  }
   header {
     padding-top: 5vh;
     /*min-height: 100%;*/
@@ -199,6 +204,7 @@ header .device-container .screen img {
   }
   header .header-content {
     text-align: left;
+    padding: 150px 0 50px;
     /*height: 100vh;*/
     height: 85vh;
   }
@@ -206,6 +212,7 @@ header .device-container .screen img {
     max-width: none;
     margin: 0;
     position: absolute;
+    text-align: left;
     top: 50%;
     transform: translateY(-50%);
   }
@@ -225,7 +232,7 @@ header .device-container .screen img {
   }
 }
 section {
-  padding: 100px 0;
+  padding: 50px;
   background: #fafafa;
   color: #ccc;
 }
@@ -262,7 +269,7 @@ section.download .badges .badge-link img {
   }
 }
 section.features .section-heading {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 section.features .section-heading h2 {
   margin-top: 0;
@@ -446,11 +453,24 @@ body {
 
 .propic {
   border-radius: 50%;
-  /*-webkit-filter: grayscale(40%); filter: grayscale(40%);*/
-  /*-webkit-filter: hue-rotate(20deg); filter: hue-rotate(20deg);*/
+  width: 100px;
+  transition: .2s;
 }
 
+.propic:hover{ border-radius: 40%; }
+
+.list-social i { cursor: pointer; }
+
+.navbar-fixed-bottom, .navbar-fixed-top { width:100vw; }
+#news { padding-top: 30px; }
+
 @media(min-width: 768px) {
+  #news { padding-top: 50px; }
+  .propic {
+    border-radius: 50%;
+    width: 150px;
+    -webkit-animation: hue 6s infinite linear;
+  }
   .splash-video {
     position: absolute;
     top: -15px;
