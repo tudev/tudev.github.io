@@ -176,7 +176,7 @@ header .header-content .header-content-inner h1 {
   font-size: 30px;
 }
 header h1,
-header h3, 
+header h3,
 header h5,
 #news .title {color: #fff;}
 header .device-container {
@@ -437,6 +437,7 @@ body {
   top: -15px;
   max-height: 100vw;
   opacity: 0;
+  min-width: 100%
   /*box-shadow: 0 0 180px 80px black inset;*/
 }
 
