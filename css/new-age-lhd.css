@@ -341,6 +341,10 @@ section .sponsor-container {
   text-align: center;
 }
 
+section .schedule-element {
+  column-count: 2;
+
+}
 section a {
   color: #a41e35;
 }
@@ -373,6 +377,10 @@ footer i:hover {
   background: #a41e35;
   background: -webkit-linear-gradient(#a41e35, #a41e35);
   background: linear-gradient(#a41e35, #a41e35);
+}
+
+.bg-primary h1,h2,h3,h4,h5,h6{
+  color: white;
 }
 .bg-cta {
   background: #a41e35 url('https://hd.unsplash.com/photo-1429051883746-afd9d56fbdaf') no-repeat;
@@ -465,6 +473,8 @@ body {
 .sponsor-logos {
    display: flex;
    flex-direction: column;
+   max-height: 100%;
+   max-width: 100%;
 }
 
 .sponsor-logos-inner {
