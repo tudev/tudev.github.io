@@ -19,7 +19,8 @@ a {
 }
 a:hover,
 a:focus {
-  color: #fff;
+  color: #eee;
+  cursor: pointer;
 }
 hr {
   max-width: 100px;
@@ -226,7 +227,6 @@ section {
   padding: 100px 0;
   background: #fafafa;
   color: #ccc;
-  height: 100%;
 }
 section h2 {
   font-size: 50px;
@@ -343,8 +343,22 @@ section .sponsor-container {
 
 section .schedule-element {
   column-count: 2;
-
+  background-color: rgba(0,0,0,.1);
+  margin: 5px 0;
 }
+
+section .schedule-element p:first-child {
+  text-align: right;
+  background-color: rgba(0,0,0,.1);
+  padding: 20px 30px;
+}
+
+section .schedule-element p {
+  text-align: left;
+  padding: 20px 10px;
+  margin-bottom: 0;
+}
+
 section a {
   color: #a41e35;
 }
