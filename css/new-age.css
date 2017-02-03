@@ -487,3 +487,9 @@ body {
 .macsplash {
   object-fit: contain;
 }
+
+
+.profile-pics {
+  display: flex;
+  background-color: red;
+}
