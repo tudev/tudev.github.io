@@ -452,13 +452,14 @@ body {
   top: 0;
 }
 
-.propic {
+.whoweare > a { display:block }
+.whoweare img {
   border-radius: 50%;
   width: 100px;
   transition: .2s;
 }
 
-.propic:hover{ border-radius: 40%; }
+.whoweare:hover img { border-radius: 40%; }
 
 .list-social i { cursor: pointer; }
 
@@ -467,7 +468,7 @@ body {
 
 @media(min-width: 768px) {
   #news { padding-top: 50px; }
-  .propic {
+  .whoweare img {
     border-radius: 50%;
     width: 150px;
     -webkit-animation: hue 6s infinite linear;
