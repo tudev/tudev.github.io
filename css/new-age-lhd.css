@@ -519,6 +519,7 @@ body {
     max-height: 100vw;
     min-width: 100%;
     opacity: .3;
+    min-height: 100%;
     /*box-shadow: 0 0 180px 80px black inset;*/
   }
   .valign {
