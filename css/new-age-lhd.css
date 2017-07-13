@@ -526,3 +526,23 @@ body {
     top: 28vh;
   }
 }
+
+.sponsor-container .col-md-2{
+  margin: 5px;
+  border: 1px solid red;
+  height: 300px;
+  padding: 0;
+}
+
+.sponsor-container .col-md-1{
+  margin: 5px;
+  border: 1px solid red;
+  height: 150px;
+  padding: 0;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+    display: inline-block;
+}
