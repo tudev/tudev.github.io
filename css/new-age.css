@@ -490,3 +490,50 @@ body {
 .macsplash {
   object-fit: contain;
 }
+
+.splash{
+      position: relative;
+      height:100%;
+      min-height: 800px;
+      overflow: hidden;
+      width: 100%;
+      background-color: #9E1B34;
+}
+
+.events{
+  background-color: white;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  -webkit-clip-path: polygon(35% 5%, 63% 12%, 100% 3%, 100% 100%, 27% 100%, 0 100%, 0 14%);
+  clip-path: polygon(35% 5%, 63% 12%, 100% 3%, 100% 100%, 27% 100%, 0 100%, 0 14%);
+  padding-top: 10%;
+}
+
+.hardware{
+  background-color: #444444;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  -webkit-clip-path: polygon(0 13%, 100% 4%, 100% 100%, 0 100%);
+  clip-path: polygon(0 13%, 100% 4%, 100% 100%, 0 100%);
+  padding-top: 10%;
+}
+
+.questions{
+  background-color: #9E1B34;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  padding-top: 10%;
+  -webkit-clip-path: polygon(49% 13%, 100% 23%, 100% 100%, 0 100%, 0 23%);
+  clip-path: polygon(49% 13%, 100% 23%, 100% 100%, 0 100%, 0 23%);
+}
+
+#labels a{
+  color: white;
+}
+
+#labels a:hover{
+  text-decoration: none;
+}
