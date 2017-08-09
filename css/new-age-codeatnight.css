@@ -9,7 +9,7 @@ body {
   width: 100%;
 }
 body {
-  font-family: 'Product Sans', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Ubuntu', 'Helvetica', 'Arial', 'sans-serif';
 }
 a {
   -webkit-transition: all 0.35s;
@@ -36,7 +36,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Product Sans', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Ubuntu', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
   color: #000;
@@ -52,12 +52,12 @@ p {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  font-family: 'Product Sans', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Ubuntu', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
 .navbar-default .navbar-header .navbar-brand {
-  font-family: 'Product Sans', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Ubuntu', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
   color: #a41e35;
