@@ -522,12 +522,13 @@ body {
 
 .questions{
   background-color: #9E1B34;
-  min-height: 100%;
   width: 100%;
   height: auto;
-  padding-top: 10%;
-  -webkit-clip-path: polygon(49% 13%, 100% 23%, 100% 100%, 0 100%, 0 23%);
-  clip-path: polygon(49% 13%, 100% 23%, 100% 100%, 0 100%, 0 23%);
+  padding: 70px;
+}
+
+.questions a{
+  color: white;
 }
 
 #labels a{
