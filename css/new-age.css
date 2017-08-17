@@ -77,7 +77,7 @@ p {
   color: white;
   padding: 8px 10px;
 }
-.navbar-default .nav > li > a {
+.navbar-default .nav > li > a,  .navbar-default .nav > li > ul > li > a{
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -108,7 +108,6 @@ p {
 }
 
 .dropdown.open .dropdown-toggle:hover{
-  background-color: #954b59 !important;
   color: white !important;
 }
 
@@ -118,7 +117,8 @@ p {
 }
 
 .dd-label{
-  color: white !important;
+  color: #d7bcc1 !important;
+  font-weight: bold;
 }
 
 .dd-label:hover{
