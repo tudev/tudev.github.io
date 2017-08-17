@@ -528,9 +528,6 @@ body {
   min-height: 100%;
   width: 100%;
   height: auto;
-  -webkit-clip-path: polygon(35% 5%, 63% 12%, 100% 3%, 100% 100%, 27% 100%, 0 100%, 0 14%);
-  clip-path: polygon(35% 5%, 63% 12%, 100% 3%, 100% 100%, 27% 100%, 0 100%, 0 14%);
-  padding-top: 10%;
 }
 
 .hardware{
@@ -538,9 +535,6 @@ body {
   min-height: 100%;
   width: 100%;
   height: auto;
-  -webkit-clip-path: polygon(0 13%, 100% 4%, 100% 100%, 0 100%);
-  clip-path: polygon(0 13%, 100% 4%, 100% 100%, 0 100%);
-  padding-top: 10%;
 }
 
 .questions{
