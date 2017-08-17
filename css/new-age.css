@@ -104,7 +104,7 @@ p {
 }
 
 #dropdownMenuButton, .dropdown-toggle{
-  padding: 16px 10px;
+  padding: 16px 14px;
   background-color: transparent;
   border-radius: 0;
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
