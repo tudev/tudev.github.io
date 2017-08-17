@@ -101,6 +101,29 @@ p {
 .navbar-default .nav > li.active > a:focus:hover {
   background-color: transparent;
 }
+
+.dropdown.open .dropdown-toggle{
+  background-color: #954b59 !important;
+  color: #d7bbc0 !important;
+}
+
+.dropdown.open .dropdown-toggle:hover{
+  background-color: #954b59 !important;
+  color: white !important;
+}
+
+.dropdown-menu{
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.dd-label{
+  color: white !important;
+}
+
+.dd-label:hover{
+  color: #9E1B34 !important;
+}
 @media (min-width: 768px) {
   .navbar-default {
     background-color: transparent;
