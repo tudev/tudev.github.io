@@ -22,7 +22,8 @@ table, td, tr, th{
 }
 
 .events_info{
-    width: 55%;
+    width: 60%;
+    min-width: 690px;
 }
 
 .tbl-desc{
