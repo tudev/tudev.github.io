@@ -378,14 +378,7 @@ section.cta .cta-content h2 {
     font-size: 80px;
   }
 }
-section.cta .overlay {
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  position: absolute;
-  top: 0;
-  left: 0;
-}
+
 
 i {
   color: #aaa;
@@ -394,7 +387,6 @@ i {
 footer {
   background-color: #a41e35;
   padding: 25px 0;
-  color: rgba(255, 255, 255, 0.3);
   text-align: center;
 }
 footer p {
