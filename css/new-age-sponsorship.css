@@ -91,3 +91,7 @@ table, td, tr, th{
 #dropdownMenuButton:hover{
   color: lightgrey !important;
 }
+
+#activated{
+    color: white !important;
+}
