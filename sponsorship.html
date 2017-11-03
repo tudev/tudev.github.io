@@ -35,6 +35,57 @@
     <![endif]-->
 </head>
 <body style="background-color: #9E1B34">
+  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span> <i class="fa fa-bars"></i>
+        </button>
+        <a class="navbar-brand page-scroll" href="#page-top"><img class="navbar-corner-icon" src="./img/og_logo_white.png" width="25px" style="display: inline; margin-top:-5px; margin-right:15px" /> <span>TUDev</span></a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle page-scroll" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+            Events <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-left">
+              <li>
+                <a class="page-scroll dd-label" href="./lhd">
+                Local Hack Day
+                </a>
+              </li>
+              <li>
+                <a class="page-scroll dd-label" href="./codeatnight">
+                Code @ Night
+                </a>
+              </li>
+              <li>
+                <a class="page-scroll dd-label" href="http://owlhacks.com/">
+                OwlHacks
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a class="page-scroll" href="https://blog.tudev.org/">Blog</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="https://tudev.org/sponsorship">
+            Sponsorship
+            </a>
+          </li>
+          <li>
+            <a target="_blank" class="page-scroll" href="https://docs.google.com/forms/d/e/1FAIpQLSdsJbBbza_HsqhGM_5YjaSo-XnWug2KNCXv9CYQcXW4qtCQsw/viewform" style="background-color:rgba(255,255,255,.2)">Join Us</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
   <div class="sponsor-splash" align="center">
     <br>
     <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiCgkgdmlld0JveD0iMCAwIDQ3Mi42IDUzMS4zIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0NzIuNiA1MzEuMzsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLnN0MHtmaWxsOiNGRkZGRkY7fQo8L3N0eWxlPgo8ZyBpZD0iTGF5ZXJfMiI+CjwvZz4KPGcgaWQ9IkxheWVyXzEiPgoJPHBhdGggY2xhc3M9InN0MCIgZD0iTTQ0OS4yLDExNS43TDI1OS43LDYuM2MtMTQuNS04LjQtMzIuMy04LjQtNDYuNywwTDIzLjQsMTE1LjdDOC45LDEyNC4xLDAsMTM5LjUsMCwxNTYuMnYyMTguOQoJCWMwLDE2LjcsOC45LDMyLjEsMjMuNCw0MC41TDIxMi45LDUyNWMxNC41LDguNCwzMi4zLDguNCw0Ni43LDBsMTg5LjYtMTA5LjRjMTQuNS04LjQsMjMuNC0yMy44LDIzLjQtNDAuNVYxNTYuMgoJCUM0NzIuNiwxMzkuNSw0NjMuNywxMjQuMSw0NDkuMiwxMTUuN3ogTTE3MC4yLDMwNC41YzEuNywwLjksMy4yLDIuMyw0LjMsNC4xYzEuMSwxLjksMS42LDMuOSwxLjYsNmMwLDMtMC44LDUuNi0yLjUsNy42CgkJYy0xLjcsMi0zLjgsMy4xLTYuMiwzLjFjLTEuMiwwLTIuMy0wLjMtMy41LTAuOGwtODcuMi00Ny44Yy0yLjUtMS40LTQuNC0zLjMtNS44LTUuN2MtMS40LTIuNC0yLjEtNS4xLTIuMS04LjF2LTIuMQoJCWMwLTMsMC43LTUuNywyLjEtOC4xYzEuNC0yLjQsMy4zLTQuMyw1LjgtNS43bDg3LjItNDcuOGMxLjItMC41LDIuMy0wLjgsMy41LTAuOGMyLjUsMCw0LjYsMSw2LjIsMy4xYzEuNywyLDIuNSw0LjYsMi41LDcuNgoJCWMwLDIuMS0wLjUsNC4xLTEuNiw2Yy0xLjEsMS45LTIuNSwzLjItNC4zLDQuMWwtNzguNyw0Mi43TDE3MC4yLDMwNC41eiBNMjczLjgsMTUxLjhsLTU3LjksMjA2LjhjLTAuNiwyLjEtMS42LDMuOS0zLjEsNS4zCgkJYy0xLjUsMS40LTMuMywyLjEtNS41LDIuMWMtMi42LDAtNC44LTEuMS02LjQtMy4yYy0xLjctMi4xLTIuNS00LjctMi41LTcuN2MwLTEuMSwwLjItMi40LDAuNy00TDI1NywxNDQuNAoJCWMwLjYtMi4xLDEuNi0zLjksMy4xLTUuM2MxLjUtMS40LDMuMy0yLjEsNS41LTIuMWMyLjYsMCw0LjgsMS4xLDYuNCwzLjJjMS43LDIuMSwyLjUsNC43LDIuNSw3LjcKCQlDMjc0LjQsMTQ4LjksMjc0LjIsMTUwLjIsMjczLjgsMTUxLjh6IE00MDMuOCwyNjIuOGMwLDMtMC43LDUuNy0yLjEsOC4xYy0xLjQsMi40LTMuMyw0LjMtNS44LDUuN2wtODcuMiw0Ny44CgkJYy0xLDAuNS0yLjIsMC44LTMuNSwwLjhjLTIuNSwwLTQuNi0xLTYuMi0zLjFjLTEuNy0yLTIuNS00LjYtMi41LTcuNmMwLTIuMSwwLjUtNC4xLDEuNi02YzEuMS0xLjksMi41LTMuMiw0LjMtNC4xbDc4LjctNDIuNwoJCWwtNzguNy00Mi43Yy0xLjctMC45LTMuMi0yLjMtNC4zLTQuMWMtMS4xLTEuOS0xLjYtMy45LTEuNi02YzAtMywwLjgtNS42LDIuNS03LjZjMS43LTIsMy43LTMuMSw2LjItMy4xYzEuMywwLDIuNSwwLjMsMy41LDAuOAoJCWw4Ny4yLDQ3LjhjMi41LDEuNCw0LjQsMy4zLDUuOCw1LjdjMS40LDIuNCwyLjEsNS4xLDIuMSw4LjFWMjYyLjh6Ii8+CjwvZz4KPC9zdmc+Cg==" style="height: 50%; width: auto;">
@@ -233,4 +284,19 @@
     <h1 style="color: white">Shoot us an email at <a href="mailto:tudev@temple.edu!">tudev@temple.edu!</a></h1>
   </div>
 </body>
+<!-- jQuery -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!-- Plugin JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<!-- Theme JavaScript -->
+<script src="js/new-age.min.js"></script>
+<script>
+video.addEventListener("timeupdate", function() {
+  if (this.currentTime >= 6) {
+    this.pause();
+  }
+});
+</script>
 </html>

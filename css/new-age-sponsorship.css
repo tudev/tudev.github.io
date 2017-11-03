@@ -81,3 +81,13 @@ table, td, tr, th{
     width: 100%;
     background-color: #9E1B34;
 }
+
+.dd-label:{
+  background-color: white !important;
+}
+
+.navbar-default .nav > li > a:hover,
+.navbar-default .nav > li > a:focus:hover,
+#dropdownMenuButton:hover{
+  color: lightgrey !important;
+}
