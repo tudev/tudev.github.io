@@ -341,8 +341,7 @@ section.features .feature-item h3 {
 }
 section.features .feature-item i {
   font-size: 80px;
-  background: -webkit-linear-gradient(#a41e35, #fff);
-  background: linear-gradient(#a41e35, #fff);
+  background: #a41e35;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -405,8 +404,6 @@ footer i:hover {
 }
 .bg-primary {
   background: #a41e35;
-  background: -webkit-linear-gradient(#a41e35, #a41e35);
-  background: linear-gradient(#a41e35, #a41e35);
 }
 .bg-cta {
   background: #a41e35 url('https://hd.unsplash.com/photo-1429051883746-afd9d56fbdaf') no-repeat;
