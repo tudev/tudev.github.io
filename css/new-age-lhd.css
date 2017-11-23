@@ -513,7 +513,12 @@ body {
 }
 
 .valign {
-  top: 0;
+  top:0;
+}
+
+.lhd-img{
+    margin-top:100px;
+    border: none;
 }
 
 .propic {
@@ -522,11 +527,6 @@ body {
   /*-webkit-filter: hue-rotate(20deg); filter: hue-rotate(20deg);*/
 }
 
-.lhd-img {
-  padding-top: 20%;
-  padding-bottom: 20px;
-  /*display: table-header-group;*/
-}
 .sponsor-logos {
    display: flex;
    flex-direction: column;
