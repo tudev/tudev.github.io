@@ -34,6 +34,7 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
+
 <body style="background-color: white">
   <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
     <div class="container">
@@ -42,35 +43,37 @@
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
           <span class="sr-only">Toggle navigation</span> <i class="fa fa-bars"></i>
         </button>
-        <a class="navbar-brand page-scroll" href="https://tudev.org"><img class="navbar-corner-icon" src="./img/og_logo_white.png" width="25px" style="display: inline; margin-top:-5px; margin-right:15px" /> 
-        <span>TUDev</span></a>
+        <a class="navbar-brand page-scroll" href="https://tudev.org"><img class="navbar-corner-icon" src="./img/og_logo_white.png"
+            width="25px" style="display: inline; margin-top:-5px; margin-right:15px" />
+          <span>TUDev</span></a>
       </div>
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
           <li class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle page-scroll" type="button" id="dropdownMenuButton" data-toggle="dropdown">
-            Events <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            <button class="btn btn-secondary dropdown-toggle page-scroll" type="button" id="dropdownMenuButton"
+              data-toggle="dropdown">
+              Events <i class="fa fa-chevron-down" aria-hidden="true"></i>
             </button>
             <ul class="dropdown-menu dropdown-menu-left">
               <li>
                 <a class="page-scroll dd-label" href="./lhd">
-                Local Hack Day
+                  Local Hack Day
                 </a>
               </li>
               <li>
                 <a class="page-scroll dd-label" href="./codeatnight">
-                Code @ Night
+                  Code @ Night
                 </a>
               </li>
               <li>
                 <a class="page-scroll dd-label" href="./hackmarch">
-                HackMarch
+                  HackMarch
                 </a>
               </li>
               <li>
                 <a class="page-scroll dd-label" href="http://owlhacks.com/">
-                OwlHacks
+                  OwlHacks
                 </a>
               </li>
             </ul>
@@ -80,16 +83,17 @@
           </li>
           <li>
             <a class="page-scroll" href="https://hackpack.tudev.org/">
-            HackPack
+              HackPack
             </a>
           </li>
           <li>
             <a id="activated" class="page-scroll" href="https://tudev.org/sponsorship">
-            Sponsorship
+              Sponsorship
             </a>
           </li>
           <li>
-            <a target="_blank" class="page-scroll" href="https://docs.google.com/forms/d/e/1FAIpQLSdsJbBbza_HsqhGM_5YjaSo-XnWug2KNCXv9CYQcXW4qtCQsw/viewform" style="background-color:rgba(255,255,255,.2)">Join Us</a>
+            <a target="_blank" class="page-scroll" href="https://docs.google.com/forms/d/e/1FAIpQLSdsJbBbza_HsqhGM_5YjaSo-XnWug2KNCXv9CYQcXW4qtCQsw/viewform"
+              style="background-color:rgba(255,255,255,.2)">Join Us</a>
           </li>
         </ul>
       </div>
@@ -99,203 +103,227 @@
   </nav>
   <div class="sponsor-splash" align="center">
     <br>
-    <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiCgkgdmlld0JveD0iMCAwIDQ3Mi42IDUzMS4zIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0NzIuNiA1MzEuMzsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLnN0MHtmaWxsOiNGRkZGRkY7fQo8L3N0eWxlPgo8ZyBpZD0iTGF5ZXJfMiI+CjwvZz4KPGcgaWQ9IkxheWVyXzEiPgoJPHBhdGggY2xhc3M9InN0MCIgZD0iTTQ0OS4yLDExNS43TDI1OS43LDYuM2MtMTQuNS04LjQtMzIuMy04LjQtNDYuNywwTDIzLjQsMTE1LjdDOC45LDEyNC4xLDAsMTM5LjUsMCwxNTYuMnYyMTguOQoJCWMwLDE2LjcsOC45LDMyLjEsMjMuNCw0MC41TDIxMi45LDUyNWMxNC41LDguNCwzMi4zLDguNCw0Ni43LDBsMTg5LjYtMTA5LjRjMTQuNS04LjQsMjMuNC0yMy44LDIzLjQtNDAuNVYxNTYuMgoJCUM0NzIuNiwxMzkuNSw0NjMuNywxMjQuMSw0NDkuMiwxMTUuN3ogTTE3MC4yLDMwNC41YzEuNywwLjksMy4yLDIuMyw0LjMsNC4xYzEuMSwxLjksMS42LDMuOSwxLjYsNmMwLDMtMC44LDUuNi0yLjUsNy42CgkJYy0xLjcsMi0zLjgsMy4xLTYuMiwzLjFjLTEuMiwwLTIuMy0wLjMtMy41LTAuOGwtODcuMi00Ny44Yy0yLjUtMS40LTQuNC0zLjMtNS44LTUuN2MtMS40LTIuNC0yLjEtNS4xLTIuMS04LjF2LTIuMQoJCWMwLTMsMC43LTUuNywyLjEtOC4xYzEuNC0yLjQsMy4zLTQuMyw1LjgtNS43bDg3LjItNDcuOGMxLjItMC41LDIuMy0wLjgsMy41LTAuOGMyLjUsMCw0LjYsMSw2LjIsMy4xYzEuNywyLDIuNSw0LjYsMi41LDcuNgoJCWMwLDIuMS0wLjUsNC4xLTEuNiw2Yy0xLjEsMS45LTIuNSwzLjItNC4zLDQuMWwtNzguNyw0Mi43TDE3MC4yLDMwNC41eiBNMjczLjgsMTUxLjhsLTU3LjksMjA2LjhjLTAuNiwyLjEtMS42LDMuOS0zLjEsNS4zCgkJYy0xLjUsMS40LTMuMywyLjEtNS41LDIuMWMtMi42LDAtNC44LTEuMS02LjQtMy4yYy0xLjctMi4xLTIuNS00LjctMi41LTcuN2MwLTEuMSwwLjItMi40LDAuNy00TDI1NywxNDQuNAoJCWMwLjYtMi4xLDEuNi0zLjksMy4xLTUuM2MxLjUtMS40LDMuMy0yLjEsNS41LTIuMWMyLjYsMCw0LjgsMS4xLDYuNCwzLjJjMS43LDIuMSwyLjUsNC43LDIuNSw3LjcKCQlDMjc0LjQsMTQ4LjksMjc0LjIsMTUwLjIsMjczLjgsMTUxLjh6IE00MDMuOCwyNjIuOGMwLDMtMC43LDUuNy0yLjEsOC4xYy0xLjQsMi40LTMuMyw0LjMtNS44LDUuN2wtODcuMiw0Ny44CgkJYy0xLDAuNS0yLjIsMC44LTMuNSwwLjhjLTIuNSwwLTQuNi0xLTYuMi0zLjFjLTEuNy0yLTIuNS00LjYtMi41LTcuNmMwLTIuMSwwLjUtNC4xLDEuNi02YzEuMS0xLjksMi41LTMuMiw0LjMtNC4xbDc4LjctNDIuNwoJCWwtNzguNy00Mi43Yy0xLjctMC45LTMuMi0yLjMtNC4zLTQuMWMtMS4xLTEuOS0xLjYtMy45LTEuNi02YzAtMywwLjgtNS42LDIuNS03LjZjMS43LTIsMy43LTMuMSw2LjItMy4xYzEuMywwLDIuNSwwLjMsMy41LDAuOAoJCWw4Ny4yLDQ3LjhjMi41LDEuNCw0LjQsMy4zLDUuOCw1LjdjMS40LDIuNCwyLjEsNS4xLDIuMSw4LjFWMjYyLjh6Ii8+CjwvZz4KPC9zdmc+Cg==" style="height: 50%; width: auto;">
+    <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiCgkgdmlld0JveD0iMCAwIDQ3Mi42IDUzMS4zIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0NzIuNiA1MzEuMzsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLnN0MHtmaWxsOiNGRkZGRkY7fQo8L3N0eWxlPgo8ZyBpZD0iTGF5ZXJfMiI+CjwvZz4KPGcgaWQ9IkxheWVyXzEiPgoJPHBhdGggY2xhc3M9InN0MCIgZD0iTTQ0OS4yLDExNS43TDI1OS43LDYuM2MtMTQuNS04LjQtMzIuMy04LjQtNDYuNywwTDIzLjQsMTE1LjdDOC45LDEyNC4xLDAsMTM5LjUsMCwxNTYuMnYyMTguOQoJCWMwLDE2LjcsOC45LDMyLjEsMjMuNCw0MC41TDIxMi45LDUyNWMxNC41LDguNCwzMi4zLDguNCw0Ni43LDBsMTg5LjYtMTA5LjRjMTQuNS04LjQsMjMuNC0yMy44LDIzLjQtNDAuNVYxNTYuMgoJCUM0NzIuNiwxMzkuNSw0NjMuNywxMjQuMSw0NDkuMiwxMTUuN3ogTTE3MC4yLDMwNC41YzEuNywwLjksMy4yLDIuMyw0LjMsNC4xYzEuMSwxLjksMS42LDMuOSwxLjYsNmMwLDMtMC44LDUuNi0yLjUsNy42CgkJYy0xLjcsMi0zLjgsMy4xLTYuMiwzLjFjLTEuMiwwLTIuMy0wLjMtMy41LTAuOGwtODcuMi00Ny44Yy0yLjUtMS40LTQuNC0zLjMtNS44LTUuN2MtMS40LTIuNC0yLjEtNS4xLTIuMS04LjF2LTIuMQoJCWMwLTMsMC43LTUuNywyLjEtOC4xYzEuNC0yLjQsMy4zLTQuMyw1LjgtNS43bDg3LjItNDcuOGMxLjItMC41LDIuMy0wLjgsMy41LTAuOGMyLjUsMCw0LjYsMSw2LjIsMy4xYzEuNywyLDIuNSw0LjYsMi41LDcuNgoJCWMwLDIuMS0wLjUsNC4xLTEuNiw2Yy0xLjEsMS45LTIuNSwzLjItNC4zLDQuMWwtNzguNyw0Mi43TDE3MC4yLDMwNC41eiBNMjczLjgsMTUxLjhsLTU3LjksMjA2LjhjLTAuNiwyLjEtMS42LDMuOS0zLjEsNS4zCgkJYy0xLjUsMS40LTMuMywyLjEtNS41LDIuMWMtMi42LDAtNC44LTEuMS02LjQtMy4yYy0xLjctMi4xLTIuNS00LjctMi41LTcuN2MwLTEuMSwwLjItMi40LDAuNy00TDI1NywxNDQuNAoJCWMwLjYtMi4xLDEuNi0zLjksMy4xLTUuM2MxLjUtMS40LDMuMy0yLjEsNS41LTIuMWMyLjYsMCw0LjgsMS4xLDYuNCwzLjJjMS43LDIuMSwyLjUsNC43LDIuNSw3LjcKCQlDMjc0LjQsMTQ4LjksMjc0LjIsMTUwLjIsMjczLjgsMTUxLjh6IE00MDMuOCwyNjIuOGMwLDMtMC43LDUuNy0yLjEsOC4xYy0xLjQsMi40LTMuMyw0LjMtNS44LDUuN2wtODcuMiw0Ny44CgkJYy0xLDAuNS0yLjIsMC44LTMuNSwwLjhjLTIuNSwwLTQuNi0xLTYuMi0zLjFjLTEuNy0yLTIuNS00LjYtMi41LTcuNmMwLTIuMSwwLjUtNC4xLDEuNi02YzEuMS0xLjksMi41LTMuMiw0LjMtNC4xbDc4LjctNDIuNwoJCWwtNzguNy00Mi43Yy0xLjctMC45LTMuMi0yLjMtNC4zLTQuMWMtMS4xLTEuOS0xLjYtMy45LTEuNi02YzAtMywwLjgtNS42LDIuNS03LjZjMS43LTIsMy43LTMuMSw2LjItMy4xYzEuMywwLDIuNSwwLjMsMy41LDAuOAoJCWw4Ny4yLDQ3LjhjMi41LDEuNCw0LjQsMy4zLDUuOCw1LjdjMS40LDIuNCwyLjEsNS4xLDIuMSw4LjFWMjYyLjh6Ii8+CjwvZz4KPC9zdmc+Cg=="
+      style="height: 50%; width: auto;">
     <h1 style="font-size: 5em; color: white;">TUDev Sponsorship</h1>
     <div style="background-color: white; height: 1px; width: 40%; margin: 50px;"></div>
     <p id="labels" style="font-size: 3em; color: white">
       <a href="#events">Event Sponsorship</a>
     </p>
-	  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick" />
-<input type="hidden" name="hosted_button_id" value="8UQ88K95Y7KU2" />
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-</form>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+      <input type="hidden" name="cmd" value="_s-xclick" />
+      <input type="hidden" name="hosted_button_id" value="8UQ88K95Y7KU2" />
+      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit"
+        title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+      <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+    </form>
 
-	  
-	  
+
+
   </div>
   <div class="container events" align="center">
     <h1 style="font-size: 5em; color: #9E1B34;" id="events">Events</h1>
     <div class="container events_info" align="left">
-      <h1 style="color: white; background-color: #444444; padding: 5px;" align="center">Local Hack Day</h1>
+      <h1 style="color: white; background-color: #444444; padding: 5px;" align="center">OwlHacks</h1>
       <p class="events_text" align="left">
-      <span class="t"></span>
-      Hackathons are programming marathons where students build services, 
-      gadgets, and apps to win prizes, and ultimately, recognition. Hackathons 
-      are a paradigm shift in technology education, and they have taken the 
-      world by storm. They encourage learning and innovation through 
-      collaboration, and have produced some of the most capable thinkers and 
-      innovators of the next generation. The Major League Hacking organization 
-      has declared a Local Hack Day which encourages communities across the 
-      world to gather their brightest minds together for a 12 hour hackathon. 
-      During the fall season of 2018, Temple University’s student developer 
-      organization, TUDev, will hold a Local Hack Day which will unite students 
-      from Temple University and surrounding institutions. Our hackathon will 
-      attract some of the top undergraduate developers, engineers, and designers 
-      in the Philadelphia area. This makes Local Hack Day a great recruiting and 
-      marketing opportunity. We’re inviting companies to present their products 
-      and services for students to explore and leverage in their applications, 
-      and we would like you to be one of them.
+        <span class="t"></span>
+        Hackathons are programming marathons where students build services,
+        gadgets, and apps to win prizes, and ultimately, recognition. Hackathons
+        are a paradigm shift in technology education, and they have taken the
+        world by storm. They encourage learning and innovation through
+        collaboration, and have produced some of the most capable thinkers and
+        innovators of the next generation. ACM and TUDev will be throwing a 12hr
+        hackathon title "OwlHacks" on March 23rd. Our hackathon will
+        attract some of the top undergraduate developers, engineers, and designers
+        in the Philadelphia area. This makes OwlHacks a great recruiting and
+        marketing opportunity. We’re inviting companies to present their products
+        and services for students to explore and leverage in their applications,
+        and we would like you to be one of them.
       </p>
       <h2 style="color: #9E1B34">That's Where You Come In</h3>
-      <p class="events_text">
-      <span class="t"></span>
-      We want you to be a part of the Local Hack Day family, and we think that 
-      sponsoring Local Hack Day has some clear advantages:
-      </p>
-      <ul>
-      <li><p class="events_text">You have the opportunity to recruit, network with, and market your brand to some of the best student engineers on the east coast.</li>
-      <li><p class="events_text">Although students have complete autonomy over what they choose to 
-      develop, companies may influence them through Local Hack Day facilitated 
-      marketing:</p>
-      <ul>
-        <li><p class="events_text">Mentoring</p></li>
-        <li><p class="events_text">Tech Talks</p></li>
-        <li><p class="events_text">API Demos & Prizes</p></li>
-      </ul>
-      </li>
-      <li><p class="events_text">You have a unique ability to serve the community in a very efficient and public way by helping student engineers and designers learn 
-      how to build and utilize technology.</p></li>
-      <li><p class="events_text">Your company get a vantage-point on the bleeding edge of the technological landscape; it’s
-      a great opportunity to hear tomorrow’s startup ideas today</p></li>
-      </ul>
-      <h3 style="color: #9E1B34">How You Can Help</h3>
-      <p class="events_text">
-      <span class="t"></span>
-      Local Hack Day is going to be a huge undertaking, and we need all the support that we can get. There are many ways to support our cause, the most effective of which are listed below:
-      </p>
-      <ul>
-      <li><p class="events_text">Donate financially to Local Hack Day. This allows us the 
-      flexibility to spend money where we need it the most.</p></li>
-      <li><p class="events_text">Sponsor a meal.</p></li>
-      <li><p class="events_text">Sponsor tools for students to use during the event (e.g. web hosting, wi-fi, hardware).</p></li>
-      <li><p class="events_text">Provide workshops & seminars to students.</p></li>
-      </ul>
-      <p class="events_text">
-      <span class="t"></span>
-      Help us make Local Hack Day an incredible experience for learning and 
-      invention. Our sponsorship packages, listed on the next page, outline our 
-      monetary contribution model. The higher your contribution, the more access 
-      you get to the student developers at Local Hack Day. We are always looking 
-      for new and exciting things for our event. Don’t hesitate to contact us 
-      with any sponsorship ideas or suggestions you may have. Please contact us 
-      at tudev@temple.edu if you have any questions or wish to schedule a phone 
-      call with a Local Hack Day organizer.
-      </p>
-      <table id="sponsor-table" style="width:100%" align="left">
-        <tr class="thead">
-          <th class="tbl-desc thead"></th>
-          <th class="tbl-silver">SILVER</th> 
-          <th class="tbl-gold thead">GOLD</th>
-          <th class="tbl-title thead">TITLE <br>(LIMIT ONE)</th>
-        </tr>
-        <tr>
-          <td class="left">AMOUNTS</td>
-          <td>$600</td> 
-          <td>$800</td>
-          <td>$1,500</td>
-        </tr>
-        <tr>
-          <td colspan="4" class="tbl-break">GENERAL</td>
-        </tr>
-        <tr>
-          <td class="left">Mentors at Event</td>
-          <td class="greentext">Yes</td> 
-          <td class="greentext">Yes</td>
-          <td class="greentext">Yes</td>
-        </tr>
-        <tr>
-          <td class="left">Reserved Sponsor Table</td>
-          <td class="greentext">Half Event</td> 
-          <td class="greentext">Full Event</td>
-          <td class="greentext">Full Event</td>
-        </tr>
-        <tr>
-          <td class="left">API Demo</td>
-          <td>-</td> 
-          <td>5 min</td>
-          <td>5 min</td>
-        </tr>
-        <tr>
-          <td class="left">Tech Talk During Event</td>
-          <td>-</td> 
-          <td class="greentext">Yes</td>
-          <td class="greentext">Yes</td>
-        </tr>
-        <tr>
-          <td class="left">Keynote at Beginning of Event</td>
-          <td>-</td> 
-          <td>5 min</td>
-          <td>15 min</td>
-        </tr>
-        <tr>
-          <td colspan="4" class="tbl-break">RECRUITING</td>
-        </tr>
-        <tr>
-          <td class="left">Material Distribution</td>
-          <td class="greentext">Yes</td> 
-          <td class="greentext">Yes</td>
-          <td class="greentext">Yes</td>
-        </tr>
-        <tr>
-          <td class="left">Large Banners Allowed</td>
-          <td>-</td> 
-          <td class="greentext">Yes</td>
-          <td class="greentext">Yes</td>
-        </tr>
-        <tr>
-          <td class="left">Résumé Book of Attendees</td>
-          <td>-</td> 
-          <td class="greentext">Yes</td>
-          <td class="greentext">Yes</td>
-        </tr>
-        <tr>
-          <td class="left">Personal On-Site Interviews</td>
-          <td>-</td> 
-          <td>-</td>
-          <td class="greentext">Yes</td>
-        </tr>
-		<tr>
-          <td colspan="4" class="tbl-break">BRANDING</td>
-        </tr>
-        <tr>
-          <td class="left">Logo on 
-            <a href="https://tudev.org/lhd">tudev.org/lhd
-          </td>
-          <td class="greentext">Yes</td> 
-          <td class="greentext">Yes</td>
-          <td class="greentext">Yes</td>
-        </tr>
-        <tr>
-          <td class="left">Branded Prize</td>
-          <td class="greentext">Yes</td> 
-          <td class="greentext">Yes</td>
-          <td class="greentext">Yes</td>
-        </tr>
-        <tr>
-          <td class="left">Public Mention &amp; Thank You at Kickoff and Award
-           Ceremony</td>
-          <td class="greentext">Yes</td> 
-          <td class="greentext">Yes</td>
-          <td class="greentext">Yes</td>
-        </tr>
-        <tr>
-          <td class="left">"Local Hack Day, co-hosted by [You]"</td>
-          <td>-</td> 
-          <td>-</td>
-          <td class="greentext">Yes</td>
-        </tr>
-        <tr>
-          <td colspan="4" class="tbl-break">SWAG</td>
-        </tr>
-        <tr>
-          <td class="left">Can Provide Swag</td>
-          <td class="greentext">Yes</td> 
-          <td class="greentext">Yes</td>
-          <td class="greentext">Yes</td>
-        </tr>
-      </table>
+        <p class="events_text">
+          <span class="t"></span>
+          We want you to be a part of the OwlHacks family, and we think that
+          sponsoring OwlHacks has some clear advantages:
+        </p>
+        <ul>
+          <li>
+            <p class="events_text">You have the opportunity to recruit, network with, and market your brand to some of
+              the best student engineers on the east coast.
+          </li>
+          <li>
+            <p class="events_text">Although students have complete autonomy over what they choose to
+              develop, companies may influence them through OwlHacks facilitated
+              marketing:</p>
+            <ul>
+              <li>
+                <p class="events_text">Mentoring</p>
+              </li>
+              <li>
+                <p class="events_text">Tech Talks</p>
+              </li>
+              <li>
+                <p class="events_text">API Demos & Prizes</p>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <p class="events_text">You have a unique ability to serve the community in a very efficient and public way
+              by helping student engineers and designers learn
+              how to build and utilize technology.</p>
+          </li>
+          <li>
+            <p class="events_text">Your company get a vantage-point on the bleeding edge of the technological
+              landscape; it’s
+              a great opportunity to hear tomorrow’s startup ideas today</p>
+          </li>
+        </ul>
+        <h3 style="color: #9E1B34">How You Can Help</h3>
+        <p class="events_text">
+          <span class="t"></span>
+          OwlHacks is going to be a huge undertaking, and we need all the support that we can get. There are many
+          ways to support our cause, the most effective of which are listed below:
+        </p>
+        <ul>
+          <li>
+            <p class="events_text">Donate financially to OwlHacks. This allows us the
+              flexibility to spend money where we need it the most.</p>
+          </li>
+          <li>
+            <p class="events_text">Sponsor a meal.</p>
+          </li>
+          <li>
+            <p class="events_text">Sponsor tools for students to use during the event (e.g. web hosting, wi-fi,
+              hardware).</p>
+          </li>
+          <li>
+            <p class="events_text">Provide workshops & seminars to students.</p>
+          </li>
+        </ul>
+        <p class="events_text">
+          <span class="t"></span>
+          Help us make OwlHacks an incredible experience for learning and
+          invention. Our sponsorship packages, listed on the next page, outline our
+          monetary contribution model. The higher your contribution, the more access
+          you get to the student developers at OwlHacks. We are always looking
+          for new and exciting things for our event. Don’t hesitate to contact us
+          with any sponsorship ideas or suggestions you may have. Please contact us
+          at mcginnr@temple.edu if you have any questions or wish to schedule a phone
+          call with a OwlHacks organizer.
+        </p>
+        <table id="sponsor-table" style="width:100%" align="left">
+          <tr class="thead">
+            <th class="tbl-desc thead"></th>
+            <th class="tbl-silver">SILVER</th>
+            <th class="tbl-gold thead">GOLD</th>
+            <th class="tbl-title thead">TITLE <br>(LIMIT ONE)</th>
+          </tr>
+          <tr>
+            <td class="left">AMOUNTS</td>
+            <td>$600</td>
+            <td>$800</td>
+            <td>$1,500</td>
+          </tr>
+          <tr>
+            <td colspan="4" class="tbl-break">GENERAL</td>
+          </tr>
+          <tr>
+            <td class="left">Mentors at Event</td>
+            <td class="greentext">Yes</td>
+            <td class="greentext">Yes</td>
+            <td class="greentext">Yes</td>
+          </tr>
+          <tr>
+            <td class="left">Reserved Sponsor Table</td>
+            <td class="greentext">Half Event</td>
+            <td class="greentext">Full Event</td>
+            <td class="greentext">Full Event</td>
+          </tr>
+          <tr>
+            <td class="left">API Demo</td>
+            <td>-</td>
+            <td>5 min</td>
+            <td>5 min</td>
+          </tr>
+          <tr>
+            <td class="left">Tech Talk During Event</td>
+            <td>-</td>
+            <td class="greentext">Yes</td>
+            <td class="greentext">Yes</td>
+          </tr>
+          <tr>
+            <td class="left">Keynote at Beginning of Event</td>
+            <td>-</td>
+            <td>5 min</td>
+            <td>15 min</td>
+          </tr>
+          <tr>
+            <td colspan="4" class="tbl-break">RECRUITING</td>
+          </tr>
+          <tr>
+            <td class="left">Material Distribution</td>
+            <td class="greentext">Yes</td>
+            <td class="greentext">Yes</td>
+            <td class="greentext">Yes</td>
+          </tr>
+          <tr>
+            <td class="left">Large Banners Allowed</td>
+            <td>-</td>
+            <td class="greentext">Yes</td>
+            <td class="greentext">Yes</td>
+          </tr>
+          <tr>
+            <td class="left">Résumé Book of Attendees</td>
+            <td>-</td>
+            <td class="greentext">Yes</td>
+            <td class="greentext">Yes</td>
+          </tr>
+          <tr>
+            <td class="left">Personal On-Site Interviews</td>
+            <td>-</td>
+            <td>-</td>
+            <td class="greentext">Yes</td>
+          </tr>
+          <tr>
+            <td colspan="4" class="tbl-break">BRANDING</td>
+          </tr>
+          <tr>
+            <td class="left">Logo on
+              <a href="https://tudev.org/lhd">tudev.org/lhd
+            </td>
+            <td class="greentext">Yes</td>
+            <td class="greentext">Yes</td>
+            <td class="greentext">Yes</td>
+          </tr>
+          <tr>
+            <td class="left">Branded Prize</td>
+            <td class="greentext">Yes</td>
+            <td class="greentext">Yes</td>
+            <td class="greentext">Yes</td>
+          </tr>
+          <tr>
+            <td class="left">Public Mention &amp; Thank You at Kickoff and Award
+              Ceremony</td>
+            <td class="greentext">Yes</td>
+            <td class="greentext">Yes</td>
+            <td class="greentext">Yes</td>
+          </tr>
+          <tr>
+            <td class="left">"OwlHacks, co-hosted by [You]"</td>
+            <td>-</td>
+            <td>-</td>
+            <td class="greentext">Yes</td>
+          </tr>
+          <tr>
+            <td colspan="4" class="tbl-break">SWAG</td>
+          </tr>
+          <tr>
+            <td class="left">Can Provide Swag</td>
+            <td class="greentext">Yes</td>
+            <td class="greentext">Yes</td>
+            <td class="greentext">Yes</td>
+          </tr>
+        </table>
     </div>
   </div>
   <!--<div style="height: 100%; width: 100%; background-color: white;">
@@ -306,7 +334,7 @@
   <div class="questions" align="center">
     <h1 style="font-size: 5em; color: white;">So want you to be a sponsor?</h1>
     <div style="background-color: white; height: 1px; width: 40%; margin: 50px;"></div>
-    <h1 style="color: white">Shoot us an email at <a href="mailto:tudev@temple.edu!">tudev@temple.edu!</a></h1>
+    <h1 style="color: white">Shoot us an email at <a href="mailto:mcginnr@temple.edu">mcginnr@temple.edu!</a></h1>
   </div>
 </body>
 <!-- jQuery -->
@@ -318,10 +346,11 @@
 <!-- Theme JavaScript -->
 <script src="js/new-age.min.js"></script>
 <script>
-video.addEventListener("timeupdate", function() {
-  if (this.currentTime >= 6) {
-    this.pause();
-  }
-});
+  video.addEventListener("timeupdate", function () {
+    if (this.currentTime >= 6) {
+      this.pause();
+    }
+  });
 </script>
+
 </html>
